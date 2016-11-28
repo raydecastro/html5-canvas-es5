@@ -4,9 +4,14 @@ h1 {
   font-size: 1em;
 }
 
+.container {
+  position: relative;
+}
+
 canvas {
-  width: 1024px;
-  height: 768px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #gridCanvas {
