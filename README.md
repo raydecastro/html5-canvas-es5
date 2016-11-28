@@ -26,6 +26,7 @@ npm start
 * html5 canvas
 * javascript
 * es5
+* express
 * node + npm + yarn
 
 ## license
