@@ -1,0 +1,18 @@
+h1 {
+  color: #2719C7;
+  font-family: Courier New, Courier, monospace;
+  font-size: 1em;
+}
+
+canvas {
+  width: 1024px;
+  height: 768px;
+}
+
+#gridCanvas {
+  z-index: 1000;
+}
+
+#loveCanvas {
+  z-index: 2000;
+}
