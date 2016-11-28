@@ -1,12 +1,24 @@
 'use strict';
 
-const gridCanvas = new love.CanvasApi('gridCanvas');
-const loveCanvas = new love.CanvasApi('loveCanvas');
+window.onload = function() {
+  drawGrid();
+  drawShapes();
 
-gridCanvas.drawGrid();
+  console.log('.love> is the most powerful force in the universe.');
+};
 
-loveCanvas.drawCircle(96, 64, 32, 'black', 'blue');
+function drawGrid() {
+  const gridCanvas = new love.CanvasApi('gridCanvas');
 
-loveCanvas.drawTriangle(96, 128, 32, 192, 160, 192, 'black', 'green');
+  gridCanvas.drawGrid();
+}
 
-loveCanvas.drawRectangle(32, 224, 128, 64, 'black', 'red');
+function drawShapes() {
+  const canvas = new love.CanvasApi('loveCanvas');
+
+  canvas.drawCircle(96, 64, 32, 'black', 'blue');
+
+  canvas.drawTriangle(96, 128, 32, 192, 160, 192, 'black', 'green');
+
+  canvas.drawRectangle(32, 224, 128, 64, 'black', 'red');
+}

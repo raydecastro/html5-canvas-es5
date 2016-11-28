@@ -6,12 +6,16 @@ h1 {
 
 .container {
   position: relative;
+  width: 1024px;
+  height: 768px;
 }
 
 canvas {
   position: absolute;
   top: 0;
   left: 0;
+  width: 1024px;
+  height: 768px;
 }
 
 #gridCanvas {
