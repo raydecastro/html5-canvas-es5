@@ -1,5 +1,5 @@
-# html5 canvas
-html5 canvas project scaffold
+# html5 canvas es5
+html5 canvas es5 project scaffold
 
 ## developer machine setup
 * install [nvm](https://github.com/creationix/nvm#install-script)
@@ -11,8 +11,8 @@ npm install -g yarn
 
 ## install
 ```
-git clone https://github.com/raydecastro/canvas.git
-cd canvas
+git clone https://github.com/raydecastro/html5-canvas-es5.git
+cd html5-canvas-es5
 yarn
 ```
 
@@ -24,8 +24,7 @@ npm start
 
 ## technologies
 * html5 canvas
-* javascript
-* es5
+* javascript es5
 * express
 * node + npm + yarn
 
