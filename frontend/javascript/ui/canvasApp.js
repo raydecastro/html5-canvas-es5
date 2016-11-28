@@ -1,6 +1,5 @@
 'use strict';
 
-
 const gridCanvas = new love.CanvasApi('gridCanvas');
 const loveCanvas = new love.CanvasApi('loveCanvas');
 
