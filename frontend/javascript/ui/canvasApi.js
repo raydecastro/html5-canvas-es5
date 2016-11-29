@@ -49,15 +49,22 @@ var love = love || {};
     var gridHeight = 768;
 
     this.context.setLineDash([2, 4]);
+    this.context.fillStyle = this.colors.lightSaberGreen;
+    this.context.font = "8px courier";
 
     var x, p = 0;
     for (x = 0; x <= gridWidth; x += 32) {
       this.context.moveTo(0.5 + x + p, p);
+      this.context.fillText(x, 0.5 + x + p + 2, p + 8);
       this.context.lineTo(0.5 + x + p, gridHeight + p);
     }
 
     for (x = 0; x <= gridHeight; x += 32) {
       this.context.moveTo(p, 0.5 + x + p);
+      if (x > 0) {
+        this.context.fillText(x, p + 2, 0.5 + x + p + 8);
+      }
+
       this.context.lineTo(gridWidth + p, 0.5 + x + p);
     }
 
